@@ -42,6 +42,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+  Closure gives us the ability to access parent level variables while at the child level. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +65,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  
+  Closure is used when console.logging "name" as it is being pulled from the parent above.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  The name will be the same but the numbers could add together, 
+
 c. What is the lexical scope of `newRoll`? 
+
+  functional level scope 
 
 ### Task 3 - Stretch Goals
 
